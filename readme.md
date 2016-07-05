@@ -15,10 +15,11 @@ Install
 
 * In all case :
     * If you want to use the auto credential system, create a file exactly named `credentials.py` containing :
-	    ```
-            conf_host = "URL / IP TO YOUR FTP HOST"
-            conf_user = "YOUR USERNAME"
-            conf_password = "YOUR PASSWORD"
+		
+		```
+			conf_host = "URL / IP TO YOUR FTP HOST"
+			conf_user = "YOUR USERNAME"
+			conf_password = "YOUR PASSWORD"
         ``` 
         This file need to be located in the same directory of the script `sendToAmoki.py`
 
