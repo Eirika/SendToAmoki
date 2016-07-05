@@ -11,8 +11,8 @@ Install
 * Linux :
     * You need to have python3
 	```sh
-	git clone https://github.com/Eirika/SendToAmoki.git 
-	cd SendToAmoki
+	git clone https://github.com/Eirika/sendToAmoki.git 
+	cd sendToAmoki
 	ln -s `pwd`/sendToAmoki.py /usr/local/bin/sendToAmoki
 	```
 
