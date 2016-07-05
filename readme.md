@@ -4,22 +4,25 @@ Install
 -------
 * Windows :
 	* Clone this repo
-	* Go to : `[WINDOWS_DISK]:\Users\[YOUR_USER]\AppData\Roaming\Microsoft\Windows\SendTo`
-	* Create a shortcut to pointing to `python "path_to_sendToAmoki.py"` with the quote !
+	* Go to : `%appdata%\Roaming\Microsoft\Windows\SendTo`
+	* Create a shortcut to pointing to `python "path_to_sendToAmoki.py"` with quotes!
 
 
 * Linux :
-	* Clone this repo
-	* Dunno; Need Amoki's help here !
+	```sh
+	git clone https://github.com/Eirika/SendToAmoki.git 
+	cd SendToAmoki
+	ln -s `pwd`/sendToAmoki.py /usr/local/bin/sendToAmoki
+	```
 
 
 * In all cases :
     * If you want to use the auto credential system, create a file exactly named `credentials.py` containing :
 		
 		```python
-			conf_host = "URL / IP TO YOUR FTP HOST"
-			conf_user = "YOUR USERNAME"
-			conf_password = "YOUR PASSWORD"
+		conf_host = "URL / IP TO YOUR FTP HOST"
+		conf_user = "YOUR USERNAME"
+		conf_password = "YOUR PASSWORD"
         ``` 
         This file need to be located in the same directory of the script `sendToAmoki.py`
 
@@ -30,8 +33,12 @@ How to use
 
 
 * Linux :
-	* Probably as simple as Windows but Amoki need to confirm
+	```sh
+	sendToAmoki file|directory [file|directory...]
+	```
+	If you want a similar behavior than Windows, google it depending your file browser
 
 
 ---
 >> By Eirika and Amoki
+ 
