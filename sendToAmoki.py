@@ -1,6 +1,5 @@
-# #!/usr/bin/env python
-# # -*- coding: utf-8 -*-
-# from __future__ import division
+#!/usr/bin/python3
+
 import sys
 import ftplib
 import os
