@@ -16,7 +16,7 @@ Install
 * In all case :
     * If you want to use the auto credential system, create a file exactly named `credentials.py` containing :
 		
-		```
+		```python
 			conf_host = "URL / IP TO YOUR FTP HOST"
 			conf_user = "YOUR USERNAME"
 			conf_password = "YOUR PASSWORD"
