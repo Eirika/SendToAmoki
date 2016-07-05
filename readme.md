@@ -13,7 +13,7 @@ Install
 	* Dunno; Need Amoki's help here !
 
 
-* In all case :
+* In all cases :
     * If you want to use the auto credential system, create a file exactly named `credentials.py` containing :
 		
 		```python
@@ -26,7 +26,7 @@ Install
 How to use
 ----------
 * Windows :
-	* Just right-click the file(s) or folder you want to upload and wait till the script print `FIN !`
+	* Just right-click the file(s) or folder(s) you want to upload and wait until the script print `FIN !`
 
 
 * Linux :
