@@ -30,7 +30,7 @@ Install
 How to use
 ----------
 * Windows :
-	* Just right-click the file(s) or folder(s) you want to upload and wait until the script print `FIN !`
+	* Just right-click the file(s) or folder(s) you want to upload and wait until the script prints `FIN !`
 
 
 * Linux :
