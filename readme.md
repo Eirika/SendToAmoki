@@ -9,6 +9,7 @@ Install
 
 
 * Linux :
+    * You need to have python3
 	```sh
 	git clone https://github.com/Eirika/SendToAmoki.git 
 	cd SendToAmoki
